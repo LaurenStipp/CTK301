@@ -1,45 +1,46 @@
-/*My Stylesheet */
-
-/*p {
- color: #ff0000;
- background-color: #0000ff;
-}*/
-
-h1 {
-  background-color: #80CBB3;
-  color: #ffffff;
-}
+/*Stylesheet for Assignment 3*/
 
 a {
- color: #ff0000;
- text-decoration: none;
+  color: #ff0000;
 }
 
+/*yellow on hover*/
 a:hover {
- color: #0000ff;
- text-decoration: underline;
+  color: #ffff00;
 }
 
-#specialid {
-  color: #00ff00;
-  background-color: #000000;
-}
-
-#divexample {
-  color: #0000ff;
-  background-color: #ffff00;
-}
-
-.specialp {
-  color: #00ff00;
-  background-color: #ffffff;
-}
-
-.spanstyle {
+/*green on visited*/
+a:visited {
   color: #00ff00;
 }
 
-footer{
+.highlight {
   color: #ffffff;
-  background-color: #ff0000;
+  background-color: #cc0000;
+}
+
+.info {
+  color: #dd0000;
+}
+
+#contact {
+  color: #777777;
+  background-color: #eeeeee;
+}
+
+#footer {
+  color:#777777;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #CE1126;
+}
+
+h2 {
+  color: #CE1126;
+}
+
+p {
+  color: #222222;
 }
