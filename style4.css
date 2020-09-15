@@ -1,0 +1,26 @@
+/*Stylesheet for Assignment 4*/
+
+.imgborder {
+  border: 10px solid #000000;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(simple_background.jpg)
+}
+
+.headerformat {
+  font-weight: lighter;
+  font-style: italic;
+  color: #ff8800;
+}
+
+.centerpar {
+  text-align: center;
+}
+
+.justifypar {
+  text-align: justify;
+}
