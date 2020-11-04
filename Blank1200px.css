@@ -24,6 +24,14 @@ header {
   text-align: center;
   padding: 20px;
   font-size: 35px;
+
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #navgrid {
@@ -50,6 +58,16 @@ nav ul li {
   font-weight: bold;
 }
 
+nav li a {
+  text-decoration: none;
+  color: #4F4F4F;
+  transition: background-color .5s, color 2s;
+}
+
+nav li a:hover {
+  background-color: green;
+}
+
 #navformat1 {
   margin-left: 145px;
   margin-right: 265px;
@@ -57,11 +75,6 @@ nav ul li {
 
 #navformat2 {
   margin-right: 260px;
-}
-
-a {
-  text-decoration: none;
-  color: #4F4F4F;
 }
 
 main {
@@ -74,6 +87,63 @@ main {
 
 .imgformat {
   padding-right: 42px;
+  border-radius: 50px;
+}
+
+section {
+  grid-column: span 12;
+}
+
+section a {
+  color: grey;
+  text-decoration: none;
+  font-size: 100px;
+  transition: color 1s;
+}
+
+section a:hover {
+  color: black;
+}
+
+.aboutimg {
+  float: left;
+  padding-right: 10px;
+  margin: 20px;
+}
+
+.abouttext{
+  margin: 100px;
+  font-size: 25px;
+}
+
+.roundedbox2 {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+}
+
+.circle {
+  padding: 100px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: -24px -10px 0px red; /* x, y, blur, color */
+}
+
+#example {
+  grid-column: span 12;
 }
 
 footer {
