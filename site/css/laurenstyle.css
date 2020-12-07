@@ -99,19 +99,6 @@ section {
   grid-column: span 12;
 }
 
-section a {
-  color: grey;
-  text-decoration: none;
-  font-size: 150px;
-  transition: color 1s;
-  margin-left: 199px;
-  margin-top: 20px;
-}
-
-section a:hover {
-  color: black;
-}
-
 .aboutimg {
   float: left;
   padding-right: 10px;
@@ -120,7 +107,7 @@ section a:hover {
 }
 
 .abouttext{
-  margin: 100px;
+  margin: 50px;
   font-size: 25px;
 }
 
