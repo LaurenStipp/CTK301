@@ -64,10 +64,13 @@ nav li a {
   text-decoration: none;
   color: #4F4F4F;
   transition: background-color .5s, color 2s;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 nav li a:hover {
   background-color: #d8d8d8;
+  border-radius: 15px;
 }
 
 #navformat {
